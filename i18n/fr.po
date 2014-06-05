@@ -1,0 +1,212 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* l10n_fr_insee
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130804-231043\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-18 10:27+0000\n"
+"PO-Revision-Date: 2013-10-18 10:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_fr_insee
+#: field:insee.zipcode,commune:0
+#: view:res.partner:0
+msgid "City"
+msgstr "Ville"
+
+#. module: l10n_fr_insee
+#: field:insee.city,dep:0
+msgid "DEP"
+msgstr "DEP"
+
+#. module: l10n_fr_insee
+#: field:insee.city,nccenr:0
+msgid "NCCENR"
+msgstr "NCCENR"
+
+#. module: l10n_fr_insee
+#: field:insee.zipcode,insee:0
+msgid "INSEE Code"
+msgstr "Code INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,department_id:0
+#: field:insee.department,dep:0
+#: field:insee.zipcode,dep:0
+#: view:res.partner:0
+msgid "Department"
+msgstr "Département"
+
+#. module: l10n_fr_insee
+#: field:insee.city,com:0
+msgid "COM"
+msgstr "COM"
+
+#. module: l10n_fr_insee
+#: field:insee.city,reg:0
+msgid "REG"
+msgstr "REG"
+
+#. module: l10n_fr_insee
+#: view:res.partner:0
+#: field:res.partner,cedex:0
+msgid "Business ZIP code"
+msgstr "Cedex"
+
+#. module: l10n_fr_insee
+#: model:ir.model,name:l10n_fr_insee.model_insee_department
+msgid "INSEE departments"
+msgstr "Départements INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,cheflieu:0
+#: field:insee.department,cheflieu:0
+#: field:insee.region,cheflieu:0
+msgid "Administrative Center"
+msgstr "Chef Lieu"
+
+#. module: l10n_fr_insee
+#: field:res.partner,insee_city_ncc:0
+msgid "unknown"
+msgstr "unknown"
+
+#. module: l10n_fr_insee
+#: view:insee.installer:0
+msgid "INSEE Data importation"
+msgstr "Importation Données INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,artmin:0
+msgid "ARTMIN"
+msgstr "ARTMIN"
+
+#. module: l10n_fr_insee
+#: model:ir.model,name:l10n_fr_insee.model_insee_region
+msgid "INSEE regions"
+msgstr "Régions INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,city_code:0
+msgid "City Code"
+msgstr "Code Commune"
+
+#. module: l10n_fr_insee
+#: view:insee.installer:0
+msgid "res_config_contents"
+msgstr "res_config_contents"
+
+#. module: l10n_fr_insee
+#: field:insee.city,artmaj:0
+msgid "ARTMAJ"
+msgstr "ARTMAJ"
+
+#. module: l10n_fr_insee
+#: field:insee.department,region:0
+#: field:insee.department,region_id:0
+#: field:insee.region,region:0
+#: view:res.partner:0
+msgid "Region"
+msgstr "Région"
+
+#. module: l10n_fr_insee
+#: field:insee.city,ncc:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: l10n_fr_insee
+#: field:insee.zipcode,codepos:0
+msgid "ZIP"
+msgstr "Code Postal"
+
+#. module: l10n_fr_insee
+#: model:ir.actions.act_window,name:l10n_fr_insee.action_insee_installer
+msgid "INSEE data importation"
+msgstr "Importation de données INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.department,nccenr:0
+#: field:insee.region,nccenr:0
+msgid "nccenr"
+msgstr "nccenr"
+
+#. module: l10n_fr_insee
+#: field:insee.region,department_ids:0
+msgid "Departments"
+msgstr "Départements"
+
+#. module: l10n_fr_insee
+#: field:res.partner,insee_city_id:0
+msgid "INSEE City"
+msgstr "Commune INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,ar:0
+msgid "AR"
+msgstr "AR"
+
+#. module: l10n_fr_insee
+#: field:insee.department,ncc:0
+#: field:insee.region,ncc:0
+msgid "ncc"
+msgstr "ncc"
+
+#. module: l10n_fr_insee
+#: field:insee.city,department_insee:0
+#: field:res.partner,insee_department_id:0
+msgid "INSEE Department"
+msgstr "Département INSEE"
+
+#. module: l10n_fr_insee
+#: field:insee.city,ct:0
+msgid "CT"
+msgstr "CT"
+
+#. module: l10n_fr_insee
+#: field:insee.city,cdc:0
+msgid "CDC"
+msgstr "CDC"
+
+#. module: l10n_fr_insee
+#: view:insee.installer:0
+msgid "This module will import INSEE data into your database."
+msgstr "Ce module va importer des données INSEE dans votre base de données."
+
+#. module: l10n_fr_insee
+#: model:ir.model,name:l10n_fr_insee.model_insee_city
+msgid "INSEE city"
+msgstr "Commune INSEE"
+
+#. module: l10n_fr_insee
+#: model:ir.model,name:l10n_fr_insee.model_insee_installer
+msgid "insee.installer"
+msgstr "insee.installer"
+
+#. module: l10n_fr_insee
+#: field:insee.department,tncc:0
+#: field:insee.region,tncc:0
+msgid "tncc"
+msgstr "tncc"
+
+#. module: l10n_fr_insee
+#: field:insee.city,tncc:0
+msgid "TNCC"
+msgstr "TNCC"
+
+#. module: l10n_fr_insee
+#: model:ir.model,name:l10n_fr_insee.model_res_partner
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: l10n_fr_insee
+#: field:insee.city,region_insee:0
+#: field:insee.department,region_insee:0
+#: field:res.partner,insee_region_id:0
+msgid "INSEE Region"
+msgstr "Région INSEE"

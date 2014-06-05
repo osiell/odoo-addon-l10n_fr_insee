@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="city" position="replace">
+                    <field name="insee_city_id" placeholder="City"
+                           on_change="onchange_insee_city_id(insee_city_id)"/>
+                    <field name="insee_city_ncc" invisible="1"/>
+                    <field name="city" placeholder="City"
+                           attrs="{'invisible': [('insee_city_ncc','!=','ETRANGER')]}"/>
+                </field>
+                <field name="state_id" position="replace">
+                    <field name="state_id" invisible="1"/>
+                </field>
+                <field name="zip" position="after">
+                    <field name="cedex" placeholder="Business zip code" nolabel="1"/>
+                    <field name="insee_department_id" placeholder="Department"
+                           attrs="{'invisible': [('insee_city_ncc','=','ETRANGER')]}"/>
+                    <field name="insee_region_id" placeholder="Region"
+                           attrs="{'invisible': [('insee_city_ncc','=','ETRANGER')]}"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</openerp>

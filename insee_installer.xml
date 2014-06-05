@@ -1,0 +1,38 @@
+<openerp>
+    <data>
+
+        <record id="view_insee_installer_form" model="ir.ui.view">
+            <field name="name">insee.installer.form.inherit</field>
+            <field name="model">insee.installer</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="base.res_config_view_base"/>
+            <field name="arch" type="xml">
+                <form position="attributes" version="7.0">
+                    <attribute name="string">INSEE Data importation</attribute>
+                </form>
+                <group string="res_config_contents" position="replace">
+                    <p class="oe_grey">
+                        This module will import INSEE data into your database.
+                    </p>
+               </group>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_insee_installer_form">
+            <field name="name">INSEE data importation</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">insee.installer</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_insee_installer_form"/>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <record id="todo_insee_installer" model="ir.actions.todo">
+            <field name="action_id" ref="action_insee_installer_form"/>
+            <field name="sequence">3</field>
+            <field name="type">automatic</field>
+        </record>
+
+    </data>
+</openerp>

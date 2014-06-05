@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_insee_region,l10n_fr_insee_city.insee_region,model_insee_region,,1,0,0,0
+access_insee_department,l10n_fr_insee_city.insee_department,model_insee_department,,1,0,0,0
+access_insee_zipcode,l10n_fr_insee_city.insee_zipcode,model_insee_zipcode,,1,0,0,0
+access_insee_city,l10n_fr_insee_city.insee_city,model_insee_city,,1,0,0,0
